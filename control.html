@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drone Controller</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Drone Controller</h1>
+    <div class="joystick-container">
+      <div class="joystick" id="left-joystick">
+        <div class="knob" id="left-knob"></div>
+      </div>
+      <div class="joystick" id="right-joystick">
+        <div class="knob" id="right-knob"></div>
+      </div>
+    </div>
+  
+    <div class="switch-container">
+      <label class="switch">
+        <input type="checkbox" id="special-action-switch">
+        <span class="slider round"></span>
+      </label>
+      <span style="margin-left: 10px;">ARM MODE</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
